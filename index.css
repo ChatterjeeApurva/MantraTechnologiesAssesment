@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+.date_range{
+    padding-top: 50px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+input{
+    width: 150px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.sub{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: x-large;
+    outline: none;
+}
+input,.sub:hover{
+    cursor: pointer;
+}
+#disp{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    transition: all 600ms;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 1px 1px 3px ;
+    background-color: white;
+    box-sizing: border-box; 
+}
+.card:hover{
+    scale: 105%;
+    cursor: pointer;
+}
+.card .sign1{
+    position: absolute;
+    font-size: xx-large;
+}
+.card .sign2{
+    position: absolute;
+    left: 5px;
+    top: 24px;
+}
+.card .abc:hover{
+    color: white;
+    cursor: pointer;
+}
+.card .sign2:hover{
+    color: white;
+}
+.card .poster{
+    width: 100%;
+    height:60%;
+}
+.poster img{
+    width: 100%;
+    height:100%;
+}
+.card .cont{
+    padding-top: 5px;
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dt{
+   background-color: rgba(161, 161, 160, 0.14);
+   width: 80%;
+   padding: 5px;
+   text-align: center;
+   position: relative;
+   left: 10px;
+}
+.msg{
+    color: rgba(0, 0, 0, 0.569);
+}
+.gold{
+    color: gold;
+}
+.blue,.rt{
+    color: blue;
+}
+.rv{
+    color: rgba(0, 0, 0, 0.569);
+    text-transform: none;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+}
